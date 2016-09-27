@@ -13,5 +13,10 @@ namespace BasicAuthentication.Models
         {
 
         }
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+        }
+        public DbSet<Item> Items { get; set; }
     }
 }
