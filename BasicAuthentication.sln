@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0E7A60B1-BE9A-4686-B76A-309BDE6400DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{84E992CB-5D8F-44EC-9CE1-9DF8306092C2}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BasicAuthentication", "src\BasicAuthentication\BasicAuthentication.xproj", "{F62800A6-817B-4938-A6D6-1EE3FA4BCAE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F62800A6-817B-4938-A6D6-1EE3FA4BCAE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62800A6-817B-4938-A6D6-1EE3FA4BCAE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62800A6-817B-4938-A6D6-1EE3FA4BCAE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62800A6-817B-4938-A6D6-1EE3FA4BCAE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F62800A6-817B-4938-A6D6-1EE3FA4BCAE6} = {0E7A60B1-BE9A-4686-B76A-309BDE6400DF}
+	EndGlobalSection
+EndGlobal
